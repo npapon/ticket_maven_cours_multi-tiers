@@ -15,6 +15,11 @@
 	<packaging>war</packaging>
 	<name>ticket-webapp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	    <properties>
+        <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
+        <maven.compiler.showWarnings>true</maven.compiler.showWarnings>
+    </properties>
+    
 	<dependencies>
 		<!-- ===== Modules ===== -->
 		<dependency>
@@ -62,7 +67,24 @@
 		</dependency>
 
 	</dependencies>
+	<!-- =============================================================== -->
+    <!-- Build -->
+    <!-- =============================================================== -->
+	
 	<build>
 		<finalName>ticket-webapp</finalName>
+<!--  
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <showDeprecation>true</showDeprecation>
+                    <showWarnings>true</showWarnings>
+                </configuration>
+            </plugin>
+        </plugins>
+  -->
 	</build>
 </project>
