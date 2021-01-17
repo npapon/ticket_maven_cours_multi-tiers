@@ -9,6 +9,14 @@
 
   <name>ticket</name>
   <url>http://maven.apache.org</url>
+  
+
+	<organization>
+
+		<name>Canal +</name>
+		<url>https://www.canalplus.com/</url>
+
+	</organization>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
