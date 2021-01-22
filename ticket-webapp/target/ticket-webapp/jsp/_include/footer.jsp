@@ -3,8 +3,8 @@
 <footer class="footer">
     <div class="container">
         <p>
-            TicketTac - version 1.0-SNAPSHOT
-            &copy; <a href="https://www.canalplus.com/">Canal +</a>
+            ${application.name} - version ${project.version}
+            &copy; <a href="${organization.url}">${organization.name}</a>
         </p>
     </div>
 </footer>

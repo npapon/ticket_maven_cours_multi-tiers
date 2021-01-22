@@ -1,6 +1,10 @@
 Manifest-Version: 1.0
 Built-By: npapo
 Build-Jdk: 11.0.9.1
+Class-Path: ticket-business-1.0-SNAPSHOT.jar ticket-consumer-1.0-SNAPSHO
+ T.jar ticket-model-1.0-SNAPSHOT.jar commons-collections4-4.4.jar common
+ s-text-1.9.jar validation-api-1.1.0.Final.jar bval-jsr-1.1.2.jar bval-c
+ ore-1.1.2.jar commons-lang3-3.5.jar
 Main-Class: fr.papounworld.batch.App
 Created-By: Maven Integration for Eclipse
 
