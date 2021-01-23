@@ -6,6 +6,7 @@
   <artifactId>ticket</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <description>hello</description>
 
   <name>ticket</name>
   <url>http://maven.apache.org</url>
@@ -21,6 +22,16 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+     <!-- =============================================================== -->
+    <!-- DistributionManagement -->
+    <!-- =============================================================== -->
+    <distributionManagement>
+        <site>
+            <id>site-projet</id>
+            <url>scp://exemple.org/www/</url>
+        </site>
+    </distributionManagement>
 
 
 <modules>  
@@ -145,6 +156,15 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.0.0</version>
                 </plugin>
+                     <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                      <version>3.7.1</version>
+                    <configuration>
+                        <!-- Je veux le site en français -->
+                        <locales>fr</locales>
+                    </configuration>
+                    </plugin>
         </plugins>
  </pluginManagement>
 	</build>
