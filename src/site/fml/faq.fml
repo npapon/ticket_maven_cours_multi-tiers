@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faqs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/FML/1.0.1"
+      xsi:schemaLocation="http://maven.apache.org/FML/1.0.1 http://maven.apache.org/xsd/fml-1.0.1.xsd"
+
+      title="Foire Aux Questions"
+      toplink="false">
+
+    <part id="meilleur-jeuxvideo">
+        <title>Jeux Vidéo</title>
+        <faq id="ps4">
+            <question>
+               Quel est le meilleur jeu PS4 ?
+            </question>
+            <answer>
+                <p>
+                 FF7 Remake
+                </p>
+                <p>ou the Last of us 2
+                </p>
+            </answer>
+        </faq>
+
+        <faq id="meilleure-console">
+            <question>
+                Quel est la meilleure console ?
+            </question>
+            <answer>
+                <p>SNES</p>
+            </answer>
+        </faq>
+    </part>
+
+    <part id="manga">
+        <title>Manga</title>
+        <faq id="meilleur-manga">
+            <question>
+               Quel est le meilleur manga ?
+            </question>
+            <answer>
+                <p>
+                 dbz
+                </p>
+                <source>apt-get install xxx</source>
+            </answer>
+        </faq>
+    </part>
+</faqs>
